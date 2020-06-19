@@ -1,0 +1,213 @@
+img { 
+    max-width:100%; 
+    height:auto; 
+}
+
+.logo {
+    width: 100%;
+}
+
+.mainview {
+    width: 100%;
+    position: relative;
+}
+
+.main {
+    width: 100%;
+}
+
+.Admission {
+    width: 80%;
+    position: absolute;
+    top: 17.7%;
+    left: 10.75%;
+}
+
+.salon1 {
+    width: 28%;
+    position: absolute;
+    top: 22.85%;
+    left: 63%;
+}
+
+.hp1 {
+    width: 81.4%;
+    position: absolute;
+    top: 26.75%;
+    left: 9.25%;
+}
+
+.salon2 {
+    width: 28%;
+    position: absolute;
+    top: 28.48%;
+    left: 63%;
+}
+
+.hp2 {
+    width: 81.4%;
+    position: absolute;
+    top: 32.37%;
+    left: 9.25%;
+}
+
+.salon3 {
+    width: 28%;
+    position: absolute;
+    top: 34.11%;
+    left: 63%;
+}
+
+.hp3 {
+    width: 81.4%;
+    position: absolute;
+    top: 37.99%;
+    left: 9.25%;
+}
+
+.salon4 {
+    width: 28%;
+    position: absolute;
+    top: 39.74%;
+    left: 63%;
+}
+
+.hp4 {
+    width: 81.4%;
+    position: absolute;
+    top: 43.61%;
+    left: 9.25%;
+}
+
+.salon5 {
+    width: 28%;
+    position: absolute;
+    top: 45.37%;
+    left: 63%;
+}
+
+.hp5 {
+    width: 81.4%;
+    position: absolute;
+    top: 49.23%;
+    left: 9.25%;
+}
+
+.salon6 {
+    width: 28%;
+    position: absolute;
+    top: 51%;
+    left: 63%;
+}
+
+.hp6 {
+    width: 81.4%;
+    position: absolute;
+    top: 54.85%;
+    left: 9.25%;
+}
+
+.salon7 {
+    width: 28%;
+    position: absolute;
+    top: 56.63%;
+    left: 63%;
+}
+
+.hp7 {
+    width: 81.4%;
+    position: absolute;
+    top: 60.47%;
+    left: 9.26%;
+}
+
+.salon8 {
+    width: 28%;
+    position: absolute;
+    top: 62.26%;
+    left: 63%;
+}
+
+.hp8 {
+    width: 81.4%;
+    position: absolute;
+    top: 66.10%;
+    left: 9.25%;
+}
+
+.salon9 {
+    width: 28%;
+    position: absolute;
+    top: 67.89%;
+    left: 63%;
+}
+
+.hp9 {
+    width: 81.4%;
+    position: absolute;
+    top: 71.72%;
+    left: 9.25%;
+}
+
+.salon10 {
+    width: 28%;
+    position: absolute;
+    top: 73.52%;
+    left: 63%;
+}
+
+.hp10 {
+    width: 81.4%;
+    position: absolute;
+    top: 77.35%;
+    left: 9.25%;
+}
+
+.salon11 {
+    width: 28%;
+    position: absolute;
+    top: 79.15%;
+    left: 63%;
+}
+
+.hp11 {
+    width: 81.4%;
+    position: absolute;
+    top: 82.98%;
+    left: 9.25%;
+}
+
+.salon12 {
+    width: 28%;
+    position: absolute;
+    top: 84.78%;
+    left: 63%;
+}
+
+.hp12 {
+    width: 81.4%;
+    position: absolute;
+    top: 88.61%;
+    left: 9.25%;
+}
+
+.questionnaire {
+    width: 80%;
+    position: absolute;
+    top: 93.2%;
+    left: 10.75%;
+}
+
+
+.BESTAR_LINE {
+    width: 100%;
+}
+
+.Instagram {
+    width: 100%;
+}
+
+.last {
+    width: 100%;
+    margin-top: 15px;
+}

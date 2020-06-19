@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+		<meta name="viewport" content="width=device-width">
+
+		<meta name="description" content="6/23開催! オンライン就活フェアのページです。">
+		<meta name="keywords" content="学内ガイダンス,美容学生,サロン">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<title>6/23 町田美容専門学校 オンライン就活フェア</title>
+		<style type="text/css"></style>
+
+		<!-- <script type="text/javascript">
+		function check_number(){
+			if(form2.free_word2.value.match(/^[0-9]+$/)){
+			alert(form2.free_word2.value);}
+			else{alert("error!");}
+		}
+		</script> -->
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	</head>
+	<body>
+		<table width="100%" cellspacing="0" cellpadding="0" style="border:0px solid blue;" bgcolor="white" align="center">
+			<header>
+				<img class="logo" src="./images/logo.jpg" alt="online_guidence_logo">
+			</header>
+			<div class="mainview">
+                <img class="main" src="./images/main.jpg" alt="サロン一覧">	
+                <div class="Admission">
+                    <a href="">
+                        <img src="./images/Admission01.jpg" alt="入室ボタン">
+                    </a>
+                </div>
+
+                <!-- サロン１ -->
+                <div class="salon1">
+                    <a href="">
+                        <img src="./images/Admission02.jpg" alt="入室ボタン">
+                    </a>
+                </div>
+                <div class="hp1">
+                    <a href="https://hairmake-earth.com/">
+                        <img src="./images/HP_check.jpg" alt="HPボタン">
+                    </a>
+                </div>
+
+                <!-- サロン２ -->
+                <div class="salon2">
+                    <a href="">
+                        <img src="./images/Admission02.jpg" alt="入室ボタン">
+                    </a>
+                </div>
+                <div class="hp2">
+                    <a href="https://ash-hair.com/">
+                        <img src="./images/HP_check.jpg" alt="HPボタン">
+                    </a>
+                </div>
+
+                <!-- サロン3 -->
+                <div class="salon3">
+                    <a href="">
+                        <img src="./images/Admission02.jpg" alt="入室ボタン">
+                    </a>
+                </div>
+                <div class="hp3">
+                    <a href="https://www.tomys.net/">
+                        <img src="./images/HP_check.jpg" alt="HPボタン">
+                    </a>
+                </div>
+
+                <!-- サロン４ -->
+                <div class="salon4">
+                    <a href="">
+                        <img src="./images/Admission02.jpg" alt="入室ボタン">
+                    </a>
+                </div>
+                <div class="hp4">
+                    <a href="https://www.unix.co.jp/home">
+                        <img src="./images/HP_check.jpg" alt="HPボタン">
+                    </a>
+                </div>
+
+                <!-- サロン5 -->
+                <div class="salon5">
+                    <a href="">
+                        <img src="./images/Admission02.jpg" alt="入室ボタン">
+                    </a>
+                </div>
+                <div class="hp5">
+                    <a href="http://aquafeel-group.co.jp/">
+                        <img src="./images/HP_check.jpg" alt="HPボタン">
+                    </a>
+                </div>
+
+                <!-- サロン6 -->
+                <div class="salon6">
+                    <a href="">
+                        <img src="./images/Admission02.jpg" alt="入室ボタン">
+                    </a>
+                </div>
+                <div class="hp6">
+                    <a href="https://www.tiptop-jp.com/index.html">
+                        <img src="./images/HP_check.jpg" alt="HPボタン">
+                    </a>
+                </div>
+
+                <!-- サロン7 -->
+                <div class="salon7">
+                    <a href="">
+                        <img src="./images/Admission02.jpg" alt="入室ボタン">
+                    </a>
+                </div>
+                <div class="hp7">
+                    <a href="http://www.blue-int.com/">
+                        <img src="./images/HP_check.jpg" alt="HPボタン">
+                    </a>
+                </div>
+
+                <!-- サロン8 -->
+                <div class="salon8">
+                    <a href="">
+                        <img src="./images/Admission02.jpg" alt="入室ボタン">
+                    </a>
+                </div>
+                <div class="hp8">
+                    <a href="https://image-a.co.jp/">
+                        <img src="./images/HP_check.jpg" alt="HPボタン">
+                    </a>
+                </div>
+
+                <!-- サロン9 -->
+                <div class="salon9">
+                    <a href="">
+                        <img src="./images/Admission02.jpg" alt="入室ボタン">
+                    </a>
+                </div>
+                <div class="hp9">
+                    <a href="https://www.hairwork-progress.jp/">
+                        <img src="./images/HP_check.jpg" alt="HPボタン">
+                    </a>
+                </div>
+
+                <!-- サロン10 -->
+                <div class="salon10">
+                    <a href="">
+                        <img src="./images/Admission02.jpg" alt="入室ボタン">
+                    </a>
+                </div>
+                <div class="hp10">
+                    <a href="https://www.ljd.jp/">
+                        <img src="./images/HP_check.jpg" alt="HPボタン">
+                    </a>
+                </div>
+
+                <!-- サロン11 -->
+                <div class="salon11">
+                    <a href="">
+                        <img src="./images/Admission02.jpg" alt="入室ボタン">
+                    </a>
+                </div>
+                <div class="hp11">
+                    <a href="https://www.neolive.co.jp/">
+                        <img src="./images/HP_check.jpg" alt="HPボタン">
+                    </a>
+                </div>
+
+                <!-- サロン12 -->
+                <div class="salon12">
+                    <a href="">
+                        <img src="./images/Admission02.jpg" alt="入室ボタン">
+                    </a>
+                </div>
+                <div class="hp12">
+                    <a href="https://www.aderans.co.jp/corporate/job/">
+                        <img src="./images/HP_check.jpg" alt="HPボタン">
+                    </a>
+                </div>
+
+                <div class="questionnaire">
+                    <a href="https://questant.jp/q/OLV6WYE0">
+                        <img src="./images/questionnaire.jpg" alt="アンケート回答ボタン">
+                    </a>
+                </div>
+
+            </div>
+            <footer>
+                <a href="">
+                    <img class="BESTAR_LINE" src="./images/BESTAR_LINE.jpg" alt="insta">
+                </a>
+                <a href="https://www.instagram.com/bestar_official_/">
+                    <img class="Instagram" src="./images/Instagram.jpg" alt="insta">
+                </a>
+                <img class="last" src="./images/last.jpg" alt="last">
+			</footer>
+		</table>
+	</body>
+</html>
